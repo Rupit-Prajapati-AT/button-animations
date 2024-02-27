@@ -1,0 +1,30 @@
+body {
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.layers {
+   position: relative;
+}
+
+.layer-1,
+.layer-2 {
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   backface-visibility: hidden;
+   transform-origin: center center;
+}
+.layer-1{
+   bottom: -40px;
+   right: -30px;
+}
+
+.layer-1 img,
+.layer-2 img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}

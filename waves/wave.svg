@@ -1,0 +1,21 @@
+<svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 15 160 50"
+   preserveAspectRatio="none" shape-rendering="auto">
+   <defs>
+      <path id="gentle-wave" d="M-120 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+   </defs>
+   <g class="parallax">
+      <use xlink:href="#gentle-wave" x="20" y="2" fill="rgba(51 ,38 ,138,0.3)">
+         <animateTransform attributeType="xml" attributeName="transform" type="translate" values="-90 0; 85 0; -90 0"
+            keyTimes="0;0.5;1" dur="25s" repeatCount="indefinite" />
+      </use>
+      <use xlink:href="#gentle-wave" x="20" y="6" fill="rgba(51 ,38 ,138,0.8)">
+         <animateTransform attributeType="xml" attributeName="transform" type="translate" values="-90 0; 85 0; -90 0"
+            keyTimes="0;0.5;1" dur="25s" repeatCount="indefinite" begin="-3s" />
+      </use>
+      <use xlink:href="#gentle-wave" x="20" y="20" fill="rgba(51 ,38 ,138,1)">
+         <animateTransform attributeType="xml" attributeName="transform" type="translate" values="-90 0; 85 0; -90 0"
+            keyTimes="0;0.5;1" dur="25s" repeatCount="indefinite" begin="-4s" />
+      </use>
+   </g>
+</svg>
+<!--Wav
